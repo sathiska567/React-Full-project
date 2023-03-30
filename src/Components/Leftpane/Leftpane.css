@@ -1,0 +1,57 @@
+.leftpaneBox{
+    height: calc(140vh - 50px);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    /* background-color: blanchedalmond; */
+}
+
+.leftpaneContainer{
+  padding: 20px;
+}
+
+.leftpaneMenu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.leftpanemenuItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.leftpaneMenuIcon{
+    margin-right: 20px;
+}
+
+.pagePic{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+
+/* new sector */
+.PagesYouLiked{
+   font-family: sans-serif;
+   font-weight: bold;
+   margin-top: 10px;
+   color: rgb(108, 113, 113);
+}
+
+.pageList{
+    padding: 0;
+    margin: 0;
+}
+
+.pageListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.pageListItem span{
+  margin-left: 10px;  
+}

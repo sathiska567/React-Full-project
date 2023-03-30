@@ -1,0 +1,9 @@
+.PostpaneBox{   
+    height: 135vh;
+ /* background-color: aquamarine; */
+ height: calc(140vh - 50px);
+ overflow-y: scroll;
+ scroll-behavior: smooth;
+   
+}
+
